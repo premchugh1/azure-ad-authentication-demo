@@ -1,0 +1,113 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/v1.0/$metadata#applications/$entity",
+    "addIns":  [
+
+               ],
+    "api":  {
+                "acceptMappedClaims":  null,
+                "knownClientApplications":  [
+
+                                            ],
+                "oauth2PermissionScopes":  [
+                                               {
+                                                   "adminConsentDescription":  "Allows the application to access the API on behalf of the signed-in user",
+                                                   "adminConsentDisplayName":  "Access API",
+                                                   "id":  "e7d262ed-78ca-4c94-9aba-615a12345678",
+                                                   "isEnabled":  true,
+                                                   "type":  "User",
+                                                   "userConsentDescription":  "Allows the application to access the API on your behalf",
+                                                   "userConsentDisplayName":  "Access API",
+                                                   "value":  "access_as_user"
+                                               }
+                                           ],
+                "preAuthorizedApplications":  [
+
+                                              ],
+                "requestedAccessTokenVersion":  2
+            },
+    "appId":  "bd0701b9-be23-4127-8be8-cddaaf1353b8",
+    "appRoles":  [
+
+                 ],
+    "applicationTemplateId":  null,
+    "certification":  null,
+    "createdDateTime":  "2025-10-22T22:45:08Z",
+    "defaultRedirectUri":  null,
+    "deletedDateTime":  null,
+    "description":  null,
+    "disabledByMicrosoftStatus":  null,
+    "displayName":  "AAD-Auth-Test-SPA-prchugh",
+    "groupMembershipClaims":  null,
+    "id":  "cebc249a-0905-4241-8d53-39b0cfb62f03",
+    "identifierUris":  [
+                           "api://bd0701b9-be23-4127-8be8-cddaaf1353b8"
+                       ],
+    "info":  {
+                 "logoUrl":  null,
+                 "marketingUrl":  null,
+                 "privacyStatementUrl":  null,
+                 "supportUrl":  null,
+                 "termsOfServiceUrl":  null
+             },
+    "isDeviceOnlyAuthSupported":  null,
+    "isFallbackPublicClient":  null,
+    "keyCredentials":  [
+
+                       ],
+    "nativeAuthenticationApisEnabled":  null,
+    "notes":  null,
+    "optionalClaims":  null,
+    "parentalControlSettings":  {
+                                    "countriesBlockedForMinors":  [
+
+                                                                  ],
+                                    "legalAgeGroupRule":  "Allow"
+                                },
+    "passwordCredentials":  [
+
+                            ],
+    "publicClient":  {
+                         "redirectUris":  [
+
+                                          ]
+                     },
+    "publisherDomain":  "premchugh1gmail.onmicrosoft.com",
+    "requestSignatureVerification":  null,
+    "requiredResourceAccess":  [
+
+                               ],
+    "samlMetadataUrl":  null,
+    "serviceManagementReference":  null,
+    "servicePrincipalLockConfiguration":  null,
+    "signInAudience":  "AzureADMyOrg",
+    "spa":  {
+                "redirectUris":  [
+                                     "https://spa-aad-auth-prchugh-95597944.azurewebsites.net",
+                                     "http://localhost:3000"
+                                 ]
+            },
+    "tags":  [
+
+             ],
+    "tokenEncryptionKeyId":  null,
+    "uniqueName":  null,
+    "verifiedPublisher":  {
+                              "addedDateTime":  null,
+                              "displayName":  null,
+                              "verifiedPublisherId":  null
+                          },
+    "web":  {
+                "homePageUrl":  null,
+                "implicitGrantSettings":  {
+                                              "enableAccessTokenIssuance":  true,
+                                              "enableIdTokenIssuance":  true
+                                          },
+                "logoutUrl":  null,
+                "redirectUriSettings":  [
+
+                                        ],
+                "redirectUris":  [
+
+                                 ]
+            }
+}

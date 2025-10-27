@@ -1,0 +1,18 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "Azure Function API with JWT validation for Azure AD authentication",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.5611"
+  }
+}

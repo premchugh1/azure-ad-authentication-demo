@@ -1,0 +1,14 @@
+# Ignore development and testing files
+.git*
+.vscode
+local.settings.json
+test
+.DS_Store
+*.md
+.env
+
+# Build artifacts - node_modules will be restored in Azure
+node_modules
+
+# Local development files
+.funcignore
